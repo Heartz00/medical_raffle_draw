@@ -472,7 +472,7 @@ const SurveyForm = () => {
                       onChange={(e) =>
                         handleMachineChange(e, machineType, index, field.name)
                       }
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-900"
                     >
                       <option value="">
                         Select {field.label.toLowerCase()}
@@ -491,7 +491,7 @@ const SurveyForm = () => {
                       onChange={(e) =>
                         handleMachineChange(e, machineType, index, field.name)
                       }
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-900 focus:border-blue-900"
                     />
                   )}
                 </div>
@@ -510,7 +510,7 @@ const SurveyForm = () => {
                 disabled={uploading}
               />
               {uploading && (
-                <p className="text-sm text-gray-500 mt-1">Uploading...</p>
+                <p className="text-sm text-gray-900 mt-1">Uploading...</p>
               )}
               {machines[index]?.photo_url && (
                 <div className="mt-2">
@@ -535,7 +535,7 @@ const SurveyForm = () => {
 
           <button
             onClick={nextStep}
-            className="px-6 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-lg hover:from-cyan-600 hover:to-blue-700"
+            className="px-6 py-2 bg-gradient-to-r from-cyan-900 to-blue-600 text-white rounded-lg hover:from-cyan-600 hover:to-blue-700"
           >
             Next
           </button>
@@ -561,7 +561,7 @@ const SurveyForm = () => {
               name="respondent_name"
               value={formData.respondent_name || ""}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-900 focus:border-blue-900"
               required
             />
           </div>
@@ -575,7 +575,7 @@ const SurveyForm = () => {
               name="respondent_email"
               value={formData.respondent_email || ""}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-900 focus:border-blue-500"
               required
             />
           </div>

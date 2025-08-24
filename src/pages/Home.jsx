@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="relative min-h-screen overflow-hidden">
       {/* Animated background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-600 z-0">
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 z-0">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-blue-500 rounded-full filter blur-3xl opacity-20 animate-pulse"></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-indigo-500 rounded-full filter blur-3xl opacity-20 animate-pulse"></div>
       </div>
@@ -47,7 +47,7 @@ const Home = () => {
         <div className="flex flex-col sm:flex-row gap-6">
           <Link
             to="/survey"
-            className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-semibold text-lg shadow-lg hover:shadow-cyan-500/30 transition-all duration-300 hover:scale-105"
+            className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-900 text-white rounded-full font-semibold text-lg shadow-lg hover:shadow-cyan-500/30 transition-all duration-300 hover:scale-105"
           >
             Join the Raffle
           </Link>
@@ -69,38 +69,38 @@ const Home = () => {
 
           <div className="grid md:grid-cols-3 gap-10">
             <div className="text-center p-6 rounded-xl bg-gradient-to-b from-white to-blue-50 shadow-lg">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-900 text-2xl font-bold mx-auto mb-4">
                 1
               </div>
               <h3 className="text-xl font-semibold mb-3">
                 Complete the Survey
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-900">
                 Provide information about your medical imaging facility and
                 equipment.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-xl bg-gradient-to-b from-white to-blue-50 shadow-lg">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-900 text-2xl font-bold mx-auto mb-4">
                 2
               </div>
               <h3 className="text-xl font-semibold mb-3">
                 Earn Raffle Tickets
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-900">
                 Gain more entries based on the completeness of your information.
               </p>
             </div>
 
             <div className="text-center p-6 rounded-xl bg-gradient-to-b from-white to-blue-50 shadow-lg">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-900 text-2xl font-bold mx-auto mb-4">
                 3
               </div>
               <h3 className="text-xl font-semibold mb-3">Win Prizes</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-900">
                 Selected participants will receive{" "}
-                <span className="font-bold text-orange-600">$500</span> for
+                <span className="font-bold text-orange-900">$500</span> for
                 their contribution.
               </p>
             </div>

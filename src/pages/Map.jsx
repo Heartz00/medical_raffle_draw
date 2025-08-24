@@ -40,7 +40,7 @@ const Map = () => {
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">
           Medical Imaging Facilities in Nigeria
         </h1>
-        <p className="text-center text-gray-600 mb-8">
+        <p className="text-center text-gray-900 mb-8">
           Interactive map of medical imaging equipment across Nigeria
         </p>
 
@@ -121,7 +121,7 @@ const Map = () => {
             </div>
 
             <div className="flex items-end">
-              <span className="text-sm text-gray-600">
+              <span className="text-sm text-gray-900">
                 Showing {filteredFacilities.length} of {facilities.length}{" "}
                 facilities
               </span>
@@ -138,7 +138,7 @@ const Map = () => {
                 <h3 className="text-xl font-semibold text-blue-800 mb-2">
                   Interactive Map Visualization
                 </h3>
-                <p className="text-blue-600 mb-4">
+                <p className="text-blue-900 mb-4">
                   This map shows {filteredFacilities.length} medical facilities
                   across Nigeria
                   {selectedState !== "All" ? ` in ${selectedState} State` : ""}
@@ -166,7 +166,7 @@ const Map = () => {
               <h3 className="font-semibold text-blue-800 mb-2">
                 {facility.name}
               </h3>
-              <p className="text-sm text-gray-600 mb-2">
+              <p className="text-sm text-gray-900 mb-2">
                 {facility.address}, {facility.state}
               </p>
 
@@ -200,7 +200,7 @@ const Map = () => {
                   }{" "}
                   working machines
                 </span>
-                <span className="text-xs font-medium text-blue-600">
+                <span className="text-xs font-medium text-blue-900">
                   {facility.points} points
                 </span>
               </div>

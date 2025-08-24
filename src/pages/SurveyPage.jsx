@@ -285,7 +285,7 @@ const SurveyPage = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4">
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
-        <div className="p-2 bg-gradient-to-r from-blue-700 to-cyan-600">
+        <div className="p-2 bg-gradient-to-r from-blue-900 to-cyan-600">
           <h1 className="text-2xl md:text-3xl font-bold text-white text-center">
             Nigeria Medical Imaging Facility Survey
           </h1>
@@ -299,7 +299,7 @@ const SurveyPage = () => {
               <p className="text-blue-800">
                 <strong>Raffle Points:</strong> Complete the survey to earn
                 raffle tickets. You currently have{" "}
-                <span className="font-bold text-blue-600">
+                <span className="font-bold text-blue-900">
                   {calculatePoints()} points
                 </span>
                 .
