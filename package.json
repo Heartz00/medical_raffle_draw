@@ -1,0 +1,47 @@
+{
+  "name": "medical-raffle-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "@vitejs/plugin-react": "^5.0.1",
+    "browser-image-compression": "^2.0.2",
+    "emailjs-com": "^3.2.0",
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^7.8.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

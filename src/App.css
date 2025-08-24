@@ -1,0 +1,33 @@
+/* src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the raffle app */
+.gradient-bg {
+  background: linear-gradient(135deg, #007bff 0%, #0a84ff 100%);
+}
+
+.glow-effect {
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Leaflet map container */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
