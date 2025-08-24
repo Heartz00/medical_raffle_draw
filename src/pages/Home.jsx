@@ -23,9 +23,25 @@ const Home = () => {
           </h1>
         </div>
 
+        {/* BIG BOLD $500 PRIZE SECTION */}
+        <div className="relative mb-8 group">
+          <div className="absolute -inset-6 bg-gradient-to-r from-yellow-400 via-orange-500 to-pink-500 rounded-3xl filter blur-2xl opacity-70 group-hover:opacity-90 transition-all duration-1000 animate-pulse"></div>
+          <div className="relative bg-gradient-to-r from-yellow-400 via-orange-500 to-pink-500 p-8 rounded-2xl shadow-2xl transform group-hover:scale-105 transition-all duration-500">
+            <div className="text-7xl md:text-9xl font-black text-white drop-shadow-2xl">
+              $500
+            </div>
+            <div className="text-xl md:text-2xl font-bold text-white mt-4 uppercase tracking-wider">
+              CASH PRIZE
+            </div>
+            <div className="absolute -top-2 -right-2 w-8 h-8 bg-yellow-300 rounded-full animate-bounce"></div>
+            <div className="absolute -bottom-2 -left-2 w-6 h-6 bg-pink-300 rounded-full animate-bounce delay-300"></div>
+          </div>
+        </div>
+
         <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mb-12 font-light">
           Participate in our Nigeria Medical Imaging Survey for a chance to win
-          $500 and help build a comprehensive GIS database of medical equipment.
+          <span className="font-bold text-yellow-300 mx-1">$500</span>
+          and help build a comprehensive GIS database of medical equipment.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6">
@@ -83,7 +99,9 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Win Prizes</h3>
               <p className="text-gray-600">
-                Selected participants will receive $500 for their contribution.
+                Selected participants will receive{" "}
+                <span className="font-bold text-orange-600">$500</span> for
+                their contribution.
               </p>
             </div>
           </div>
