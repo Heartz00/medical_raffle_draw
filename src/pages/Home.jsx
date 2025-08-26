@@ -37,12 +37,20 @@ const Home = () => {
             <div className="absolute -bottom-2 -left-2 w-6 h-6 bg-pink-300 rounded-full animate-bounce delay-300"></div>
           </div>
         </div>
+    
+           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mb-12 font-light">
+      Take part in our Nigeria Medical Imaging Survey for a chance to win 
+      <span className="font-bold text-yellow-300 mx-1">$500</span> 
+      while contributing to the development of a comprehensive GIS database of medical equipment.
+    </p>
+    
+    <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mb-12 font-light">
+      (This survey is adapted and modified from the CAMERA Needs Assessment Survey (NAS)) <br />
+      Reference: Anazodo UC, Ng JJ, Ehiogu B, Obungoloch J, Fatade A, et al. 
+      <i>A framework for advancing sustainable magnetic resonance imaging access in Africa.</i> 
+      <span className="italic">NMR Biomed.</span> 2023 Mar;36(3):e4846. doi: 10.1002/nbm.4846.
+    </p>
 
-        <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mb-12 font-light">
-          Participate in our Nigeria Medical Imaging Survey for a chance to win
-          <span className="font-bold text-yellow-300 mx-1">$500</span>
-          and help build a comprehensive GIS database of medical equipment.
-        </p>
 
         <div className="flex flex-col sm:flex-row gap-6">
           <Link
